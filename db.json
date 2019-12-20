@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "vannida",
+      "password": "123"
+    }
+  ],
+  "likes": [
+    {
+      "id": 1,
+      "count": 1,
+      "memeId": 1,
+      "postId": 1
+    }
+  ],
+  "memes": [
+  {
+    "id": 1,
+    "title": "Display Title",
+    "category": "comic",
+    "img_url": "https://i.redd.it/isrjramf1q541.jpg"
+  },
+  {
+    "id": 2,
+    "title": "StackOverflow",
+    "category": "meme",
+    "img_url": "https://i.redd.it/r9jo0reqos541.jpg"
+  },
+  {
+    "id": 3,
+    "title": "StackOverflow",
+    "category": "meme",
+    "img_url": "https://i.redd.it/r9jo0reqos541.jpg"
+  }
+  ]
+}
