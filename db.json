@@ -4,34 +4,209 @@
       "id": 1,
       "username": "vannida",
       "password": "123"
+    },
+    {
+      "id": 2,
+      "username": "john_doe",
+      "password": "123"
     }
   ],
   "likes": [
     {
       "id": 1,
-      "count": 1,
-      "memeId": 1,
-      "postId": 1
+      "count": 22,
+      "meme_id": 1,
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "count": 15,
+      "meme_id": 2,
+      "user_id": 2
     }
   ],
   "memes": [
-  {
-    "id": 1,
-    "title": "Display Title",
-    "category": "comic",
-    "img_url": "https://i.redd.it/isrjramf1q541.jpg"
-  },
-  {
-    "id": 2,
-    "title": "StackOverflow",
-    "category": "meme",
-    "img_url": "https://i.redd.it/r9jo0reqos541.jpg"
-  },
-  {
-    "id": 3,
-    "title": "StackOverflow",
-    "category": "meme",
-    "img_url": "https://i.redd.it/r9jo0reqos541.jpg"
-  }
+    {
+      "id": 1,
+      "title": "Display Title",
+      "category": "comic",
+      "img_url": "https://i.redd.it/isrjramf1q541.jpg",
+      "user_id": 1
+    },
+    {
+      "id": 2,
+      "title": "StackOverflow",
+      "category": "meme",
+      "img_url": "https://i.redd.it/r9jo0reqos541.jpg",
+      "user_id": 1
+    },
+    {
+      "id": 3,
+      "title": "Code On Github",
+      "category": "meme",
+      "img_url": "https://i.redd.it/2ai9qwadrm241.png",
+      "user_id": 1
+    },
+    {
+      "id": 4,
+      "title": "My Code is Perfect",
+      "category": "meme",
+      "img_url": "https://external-preview.redd.it/HoIVB7uoMei5jalNPl5UlEKenZ8OziQTFMNyuY5Fc20.png?auto=webp&s=26426fb627a5cfb68027eb42abedcee1f23b75a1",
+      "user_id": 1
+    },
+    {
+      "id": 5,
+      "title": "Don't Rush Me",
+      "category": "meme",
+      "img_url": "https://i.redd.it/js7xg0zd10341.png",
+      "user_id": 1
+    },
+    {
+      "id": 6,
+      "title": "Hello World",
+      "category": "meme",
+      "img_url": "https://i.redd.it/2c0typv0eg241.jpg",
+      "user_id": 1
+    },
+    {
+      "id": 7,
+      "title": "This is the Way",
+      "category": "meme",
+      "img_url": "http://devhumor.com/content/uploads/images/December2019/junior_dev.jpg",
+      "user_id": 1
+    },
+    {
+      "id": 8,
+      "title": "Stacking If/Else Statements Be Like",
+      "category": "meme",
+      "img_url": "http://devhumor.com/content/uploads/images/December2019/if-else.jpg",
+      "user_id": 1
+    },
+    {
+      "id": 9,
+      "title": "Why are You Using Javascript?",
+      "category": "meme",
+      "img_url": "https://pics.esmemes.com/non-programmers-watching-me-code-other-programmers-watching-me-code-66785763.png",
+      "user_id": 1
+    },
+    {
+      "id": 10,
+      "title": "Why are You Using Javascript?",
+      "category": "meme",
+      "img_url": "https://pics.esmemes.com/non-programmers-watching-me-code-other-programmers-watching-me-code-66785763.png",
+      "user_id": 1
+    },
+    {
+      "id": 11,
+      "title": "Baby's First Words",
+      "category": "meme",
+      "img_url": "https://www.probytes.net/wp-content/uploads/2018/01/9-1.jpg",
+      "user_id": 1
+    },
+    {
+      "id": 12,
+      "title": "When You Delete a Block of Code",
+      "category": "gif",
+      "img_url": "https://lh3.googleusercontent.com/-VHV916run58/WC9To_x72tI/AAAAAAAACkE/f59cQ9_9-XY/safe_image_thumb.gif?imgmax=800",
+      "user_id": 1
+    },
+    {
+      "id": 13,
+      "title": "Ctrl+S",
+      "category": "meme",
+      "img_url": "https://codinginfinite.com/wp-content/uploads/2019/05/ctrl-s-ctrl-s-ctrl-s-ctrl-s-unsaved-code-get-saved-35069666.jpg",
+      "user_id": 2
+    },
+    {
+      "id": 14,
+      "title": "AI?",
+      "category": "meme",
+      "img_url": "https://res.cloudinary.com/practicaldev/image/fetch/s--k_7wANoh--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.imgur.com/1AraF4i.jpg",
+      "user_id": 2
+    },
+    {
+      "id": 15,
+      "title": "AI?",
+      "category": "meme",
+      "img_url": "https://res.cloudinary.com/practicaldev/image/fetch/s--k_7wANoh--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://i.imgur.com/1AraF4i.jpg",
+      "user_id": 2
+    },
+    {
+      "id": 16,
+      "title": "Slackers",
+      "category": "comic",
+      "img_url": "https://miro.medium.com/max/826/0*wwHqp38ciBT6v1qW.jpg",
+      "user_id": 2
+    },
+    {
+      "id": 17,
+      "title": "Hulk Smash",
+      "category": "meme",
+      "img_url": "https://images3.memedroid.com/images/UPLOADED773/5cd1ecc884df7.jpeg",
+      "user_id": 2
+    },
+    {
+      "id": 18,
+      "title": "*Pikachu Face*",
+      "category": "meme",
+      "img_url": "https://pics.astrologymemes.com/when-my-code-works-when-my-code-doesnt-works-and-37647211.png",
+      "user_id": 2
+    },
+    {
+      "id": 20,
+      "title": "Programmers While Coding",
+      "category": "meme",
+      "img_url": "https://www.dailymoss.com/wp-content/uploads/2018/01/ca4794cfada458717c7aa99093a1f425.jpg",
+      "user_id": 2
+    },
+    {
+      "id": 21,
+      "title": "Me Trying to Read Other People's Code",
+      "category": "meme",
+      "img_url": "https://www.testbytes.net/wp-content/uploads/2019/06/Untitled-54.png",
+      "user_id": 2
+    },
+    {
+      "id": 22,
+      "title": "Recursion",
+      "category": "meme",
+      "img_url": "https://i.redd.it/iwwjduvtot541.jpg",
+      "user_id": 2
+    },
+    {
+      "id": 23,
+      "title": "Just Do It",
+      "category": "meme",
+      "img_url": "https://preview.redd.it/7r179bxcur541.jpg?width=960&crop=smart&auto=webp&s=6e6db1903aa77da9ee8d0f17c57dd07f069fa67a",
+      "user_id": 2
+    },
+    {
+      "id": 24,
+      "title": "Laughs in Very High-Level Programming Language",
+      "category": "meme",
+      "img_url": "https://i.redd.it/ow8t0k0zjn741.jpg",
+      "user_id": 2
+    },
+    {
+      "id": 25,
+      "title": "Necessary Evil",
+      "category": "meme",
+      "img_url": "https://i.redd.it/zx7pcvhadq741.png",
+      "user_id": 2
+    },
+    {
+      "title": "Think Smarter",
+      "user_id": "1",
+      "category": "",
+      "img_url": "https://cupheadmemes.com/wp-content/uploads/2018/08/Best-Programming-Memes-80.jpg",
+      "id": 26
+    },
+    {
+      "title": "Think Smarter",
+      "user_id": "1",
+      "category": "",
+      "img_url": "https://cupheadmemes.com/wp-content/uploads/2018/08/Best-Programming-Memes-80.jpg",
+      "id": 27
+    }
   ]
 }

@@ -1,0 +1,2 @@
+class AddLikesColumnToMemesController < ApplicationController
+end

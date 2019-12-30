@@ -5,3 +5,31 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+require 'json'
+User.destroy_all 
+Like.destroy_all
+
+
+data = JSON.parse(File.read("db.json"))
+users = data["users"]
+likes = data["likes"]
+memes = data["memes"]
+
+
+users.each do |user|
+    User.create(user)
+end
+
+likes.each do |like|
+    Like.create(like)
+end
+
+memes.each do |meme|
+    Meme.create(meme)
+end
+
+
+
+
+

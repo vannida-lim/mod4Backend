@@ -1,0 +1,2 @@
+class AddLikesToMemesController < ApplicationController
+end
