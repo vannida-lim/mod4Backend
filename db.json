@@ -14,31 +14,25 @@
   "likes": [
     {
       "id": 1,
-      "count": 22,
+      "liked": false,
       "meme_id": 1,
       "user_id": 1
     },
     {
       "id": 2,
-      "count": 15,
+      "liked": false,
       "meme_id": 2,
       "user_id": 2
     }
   ],
   "memes": [
     {
-      "id": 1,
-      "title": "Display Title",
-      "category": "comic",
-      "img_url": "https://i.redd.it/isrjramf1q541.jpg",
-      "user_id": 1
-    },
-    {
       "id": 2,
       "title": "StackOverflow",
       "category": "meme",
       "img_url": "https://i.redd.it/r9jo0reqos541.jpg",
-      "user_id": 1
+      "user_id": 1,
+      "liked": false
     },
     {
       "id": 3,
@@ -101,7 +95,8 @@
       "title": "Baby's First Words",
       "category": "meme",
       "img_url": "https://www.probytes.net/wp-content/uploads/2018/01/9-1.jpg",
-      "user_id": 1
+      "user_id": 1,
+      "liked": true
     },
     {
       "id": 12,
@@ -157,7 +152,8 @@
       "title": "Programmers While Coding",
       "category": "meme",
       "img_url": "https://www.dailymoss.com/wp-content/uploads/2018/01/ca4794cfada458717c7aa99093a1f425.jpg",
-      "user_id": 2
+      "user_id": 2,
+      "liked": false
     },
     {
       "id": 21,
@@ -188,24 +184,17 @@
       "user_id": 2
     },
     {
-      "id": 25,
-      "title": "Necessary Evil",
-      "category": "meme",
-      "img_url": "https://i.redd.it/zx7pcvhadq741.png",
-      "user_id": 2
-    },
-    {
-      "title": "Think Smarter",
+      "title": "New Year's Resolution",
       "user_id": "1",
-      "category": "",
-      "img_url": "https://cupheadmemes.com/wp-content/uploads/2018/08/Best-Programming-Memes-80.jpg",
+      "category": "meme",
+      "img_url": "https://pics.me.me/ts-new-years-whats-your-resolution-same-as-always-1024-30204348.png",
       "id": 26
     },
     {
-      "title": "Think Smarter",
+      "title": "AI?",
       "user_id": "1",
       "category": "",
-      "img_url": "https://cupheadmemes.com/wp-content/uploads/2018/08/Best-Programming-Memes-80.jpg",
+      "img_url": "https://i.imgflip.com/36igpz.jpg",
       "id": 27
     }
   ]
